@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/ibm-cds-labs/bunyan-console-stream/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "^4.5.0",
     "stream": "0.0.2",
