@@ -1,0 +1,29 @@
+{
+  "name": "bunyan-console-stream",
+  "version": "0.1.0",
+  "description": "simple bunyan console logging stream",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-cds-labs/bunyan-console-stream.git"
+  },
+  "keywords": [
+    "bunyan",
+    "stream",
+    "console"
+  ],
+  "author": "ptitzler@us.ibm.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ibm-cds-labs/bunyan-console-stream/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "lodash": "^4.5.0",
+    "stream": "0.0.2",
+    "util": "^0.10.3"
+  }
+}
