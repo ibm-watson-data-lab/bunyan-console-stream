@@ -22,6 +22,6 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash.find": "^4.6.0"
+    "lodash": "^4.16.4"
   }
 }
