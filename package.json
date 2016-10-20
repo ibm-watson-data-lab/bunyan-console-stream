@@ -1,6 +1,6 @@
 {
   "name": "bunyan-console-stream",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "simple bunyan console logging stream",
   "main": "lib/index.js",
   "scripts": {
@@ -22,8 +22,6 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "^4.5.0",
-    "stream": "0.0.2",
-    "util": "^0.10.3"
+    "lodash.find": "^4.6.0"
   }
 }
