@@ -11,21 +11,22 @@ var consoleStream = require('bunyan-console-stream')
 
 var stream_options = {
   stderrThreshold: 40 // log warning, error and fatal messages on STDERR
-  displayStack: true // log error stack
+  displayStack: true // log error stack, if present
 }
 
 var logger = bunyan.createLogger({
   name: loggerName,
   streams: [
-	  {
-		  type: 'raw',
-			stream: consoleStream.createStream(stream_options)
+    {
+      type: 'raw',
+      stream: consoleStream.createStream(stream_options)
     },
     //...
- 	]
+  ]
 })
 // ...
 
 logger.info('Success!');   // STDOUT output: INFO: Success!         			        
 logger.error('Fail.');     // STDERR output: ERROR: Fail.
+
 ````
